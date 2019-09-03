@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.ahenteti.java</groupId>
-    <artifactId>facelet-template-demo</artifactId>
+    <artifactId>facelet-templates-demo</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
