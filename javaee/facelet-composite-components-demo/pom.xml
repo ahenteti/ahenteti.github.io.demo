@@ -50,11 +50,11 @@
                     <container>
                         <containerId>glassfish5x</containerId>
                         <type>installed</type>
-                        <home>c:/glassfish5</home>
+                        <home>${env.GLASSFISH_HOME}</home>
                     </container>
                     <configuration>
                         <type>existing</type>
-                        <home>c:/glassfish5/glassfish/domains</home>
+                        <home>${env.GLASSFISH_HOME}/glassfish/domains</home>
                         <properties>
                             <cargo.glassfish.domain.name>domain1</cargo.glassfish.domain.name>
                             <cargo.remote.password />
