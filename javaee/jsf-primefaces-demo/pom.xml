@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.ahenteti.java</groupId>
-    <artifactId>jsf-helloworld-demo</artifactId>
+    <artifactId>jsf-primefaces-demo</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
@@ -16,12 +16,12 @@
     </properties>
 
     <dependencies>
-        <!-- javaee 8 -->
         <dependency>
             <groupId>org.primefaces</groupId>
             <artifactId>primefaces</artifactId>
-            <version>5.0</version>
+            <version>7.0</version>
         </dependency>
+        <!-- javaee 8 -->
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>

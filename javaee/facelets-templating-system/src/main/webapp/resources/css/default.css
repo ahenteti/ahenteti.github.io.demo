@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+    --header-height: 50px;
+    --footer-height: 100px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    height: var(--header-height);
+    background: #eee;
+}
+
+footer {
+    height: var(--footer-height);
+    background: #333; 
+    color: white;
+    text-align: center;   
+}
+
+main {
+    height: calc(100vh - var(--header-height) - var(--footer-height));
+}
