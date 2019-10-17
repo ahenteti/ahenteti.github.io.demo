@@ -1,0 +1,44 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+}
+
+section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;;
+}
+
+.card {
+  min-height: 200px;
+  background: white;
+  box-shadow: 0 1px 3px rgba(black, 0.2);
+}
+
+.card:nth-child(even) {
+  margin-right: 0;
+}
+
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+.not-yet-visible {
+  transform: translateY(150px);
+}
+
+.visible-after-scroll {
+  animation: visible-after-scroll 0.8s ease forwards;
+}
+@keyframes visible-after-scroll {
+  to { transform: translateY(0); }
+}
