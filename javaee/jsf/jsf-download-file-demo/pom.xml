@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.ahenteti.java</groupId>
-    <artifactId>jsf-crud-app-demo</artifactId>
+    <artifactId>jsf-download-file-demo</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
@@ -50,7 +50,6 @@
             <plugin>
                 <groupId>org.codehaus.cargo</groupId>
                 <artifactId>cargo-maven2-plugin</artifactId>
-                <version>1.7.7</version>
                 <inherited>true</inherited>
                 <executions>
                     <execution>

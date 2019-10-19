@@ -32,6 +32,7 @@ section {
   transform: translateY(0);
   animation: none;
 }
+
 .not-yet-visible {
   transform: translateY(150px);
 }
